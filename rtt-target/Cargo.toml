@@ -13,3 +13,4 @@ repository = "https://github.com/probe-rs/rtt-target"
 [dependencies]
 ufmt-write = "0.1.0"
 critical-section = "1.0.0"
+portable-atomic = { version = "1.6.0", default-features = false, features = ["unsafe-assume-single-core", "fallback"] }
